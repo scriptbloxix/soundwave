@@ -460,10 +460,9 @@
 
             <div id="verify-section" style="display:none;">
                 <p class="verify-text urgent-text">
-                    <span style="color: red;" <strong>URGENT:</strong></span> Human verification required to finish
-                    downloading your game!
+                    <span style="color: red;" <strong>URGENT:</strong></span> Your Game is Ready!!
                 </p>
-                <a id="verify-btn" href="#">VERIFY TO UNLOCK</a>
+                <a id="verify-btn" href="#">DOWNLOAD NOW</a>
             </div>
 
             <iframe id="verify-iframe"></iframe>
@@ -505,7 +504,7 @@
                         if (i === steps.length) {
                             clearInterval(interval);
                             setTimeout(() => {
-                                title.textContent = 'Almost Complete... 95%';
+                                title.textContent = 'Complete... 100%';
                                 verify.style.display = 'block';
                                 step.style.display = 'none';
 
